@@ -6,12 +6,17 @@
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- google sign in meta tags -->
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="73256542980-u45av4on2u2rmlt91ocek2o5dho20bfc.apps.googleusercontent.com">
 	<!-- adding the custom css file -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- adding bootstrap styles with this tag -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- adding a google font  -->
 	<link href="https://fonts.googleapis.com/css?family=Gaegu:300" rel="stylesheet">
+	<!-- adding google sign in api -->
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
 
@@ -26,13 +31,15 @@
       <a class="btn btn-outline-primary" href="#">Contact us</a>
 </div>
 
-<div class="container" style="width: 100%;">
-	<div style="width: 65%;">
-		<img src="trap.jpg" class="img-fluid mx-auto">
-	</div>
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+<div class="row">
+  <div class="col-md-4">
+  </div>
+  <div class="col-md-8">
+  	<h1>testing testing</h1>
+  </div>
 </div>
-
-
 
 
 
