@@ -1,5 +1,5 @@
 .zmctop1, .zmctop2{
-	width: 50%;
+	width: 50% !important;
 }
 .zmctop2 {
     width: 1440px;
