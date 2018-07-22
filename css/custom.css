@@ -1,5 +1,6 @@
 .hero{
 	width: 50% !important;
+	display: inline-block;
 }
 .zmctop2 {
     width: 1440px;
