@@ -11,17 +11,16 @@ function onSignIn(googleUser) {
         console.log("Email: " + profile.getEmail());
 
         var name =  profile.getGivenName();
+
         // The ID token you need to pass to your backend:
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
         
 
         document.getElementById("gmail_name").innerHTML = ('Welcome back '+ name);
+        $('#gmail_login').hide();
 
-        if (onSignIn === true){
-            $("#gmail_login").hide();
-            console.log('user logged in already..');
-        }
+
       };
 
 
