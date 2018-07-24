@@ -18,14 +18,17 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!-- adding a google font  -->
 	<link href="https://fonts.googleapis.com/css?family=Gaegu:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!-- adding google sign in api -->
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- adding jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow" style="background-color: white;">
       <h3 class="my-0 mr-md-auto font-weight-normal" style="font-family: Gaegu;">Developers Trap</h3>
-      <nav class="my-2 my-md-0 mr-md-3">
+      <nav class="my-2 my-md-0 mr-md-3 nav">
         <a class="p-2 text-dark" href="index.html">Home</a>
         <a class="p-2 text-dark" href="zach.html">Zach</a>
         <a class="p-2 text-dark" href="mike.html">Mike</a>
@@ -34,19 +37,38 @@
       <div class="g-signin2" data-onsuccess="onSignIn"></div>
 </div>
 
+<!-- copy and paste from here up to keep the same header/nav for all pages -->
+
+<div class="wrapper">
+
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, What brings you here?</h1>
+      <p class="lead">McHadeh is a place where we practice new code.</p>
+      <hr class="my-4">
+      <p>It provides us a safe place to try things locally or pushed to Github, check out our work below!</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="zach.html" role="button">Zach :)</a>
+        <a class="btn btn-danger btn-lg" href="mike.html" role="button">Mike :|</a>
+      </p>
+    </div>
+
+
+
 
 
 <a href="#" onclick="signOut();">Sign out</a>
 
-<div class="row">
-  <div class="col-md-4">
-  </div>
-  <div class="col-md-8">
 
-  	<p>hi given name</p>
-  	<h1>testing section</h1>
-  </div>
+
+
+<!-- ending the wrapper class -->
 </div>
+
+<!-- copy and paste from here down to keep same footer for all pages.  -->
+<footer>
+    <p>A McHadeh Project 2018</p>
+</footer>
+
 
 
 
