@@ -15,9 +15,13 @@ function onSignIn(googleUser) {
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
         
-        
+
         document.getElementById("gmail_name").innerHTML = ('Welcome back '+ name);
 
+        if (onSignIn === true){
+            $("#gmail_login").hide();
+            console.log('user logged in already..');
+        }
       };
 
 
