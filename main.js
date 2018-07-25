@@ -18,6 +18,8 @@ function onSignIn(googleUser) {
         
 
         document.getElementById("gmail_name").innerHTML = ('Welcome back '+ name);
+
+
         $('#gmail_login').hide();
 
 
